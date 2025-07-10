@@ -1,0 +1,5 @@
+variable "s3_bucket_name" {
+  type        = string
+  description = "The name of the S3 bucket"
+  default     = "my-terraform-demo-bucket"
+}
